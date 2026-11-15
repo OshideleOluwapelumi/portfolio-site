@@ -1,12 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
-  <title id="title">Tayo Creates</title>
-  <desc id="description">Software, front-end and AI development by Tayo.</desc>
-  <rect width="1200" height="630" fill="#080c1c"/>
-  <circle cx="1030" cy="80" r="360" fill="#141c3a"/>
-  <circle cx="1030" cy="80" r="270" fill="#1d2b58"/>
-  <text x="100" y="245" fill="#f2f4ff" font-family="Arial, sans-serif" font-size="76" font-weight="700">Tayo Creates</text>
-  <text x="104" y="320" fill="#a9b2d6" font-family="Arial, sans-serif" font-size="34">Software · Front-end · AI</text>
-  <rect x="104" y="385" width="116" height="8" rx="4" fill="#6c8cff"/>
-  <text x="104" y="480" fill="#8aa4ff" font-family="Arial, sans-serif" font-size="28">Building useful digital experiences</text>
-  <text x="1030" y="190" fill="#6c8cff" font-family="Arial, sans-serif" font-size="250" font-weight="700" text-anchor="middle">T</text>
+  <title id="title">Oluwapelumi (Tayo) Oshidele</title>
+  <desc id="description">Portfolio of an early-career software engineer and front-end developer.</desc>
+  <rect width="1200" height="630" fill="#050914"/>
+  <circle cx="1030" cy="80" r="360" fill="#0d1a33"/>
+  <circle cx="1030" cy="80" r="270" fill="#173568"/>
+  <text x="100" y="220" fill="#edf4ff" font-family="Arial, sans-serif" font-size="58" font-weight="700">Oluwapelumi (Tayo)</text>
+  <text x="100" y="294" fill="#edf4ff" font-family="Arial, sans-serif" font-size="58" font-weight="700">Oshidele</text>
+  <text x="104" y="365" fill="#a4b5d1" font-family="Arial, sans-serif" font-size="31">Software Engineer · Front-end Developer</text>
+  <rect x="104" y="422" width="116" height="8" rx="4" fill="#4c8dff"/>
+  <text x="104" y="500" fill="#79b2ff" font-family="Arial, sans-serif" font-size="28">Portfolio · Galactic Gallery</text>
+  <text x="1030" y="190" fill="#4c8dff" font-family="Arial, sans-serif" font-size="250" font-weight="700" text-anchor="middle">O</text>
 </svg>
