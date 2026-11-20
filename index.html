@@ -8,10 +8,11 @@
     <meta property="og:title" content="Oluwapelumi (Tayo) Oshidele | Portfolio">
     <meta property="og:description" content="Explore the portfolio and work of Oluwapelumi (Tayo) Oshidele, including the Galactic Gallery project.">
     <meta property="og:image" content="https://oshideleoluwapelumi.github.io/portfolio-site/social-preview.svg">
+    <meta name="theme-color" content="#0b0d12">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,79 +20,86 @@
     <a class="skip-link" href="#content">Skip to content</a>
 
     <header class="site-header">
-        <a href="#home" class="logo">TAYO CREATES</a>
-        <nav aria-label="Main">
-            <a href="#home">HOME</a>
-            <a href="#about">ABOUT</a>
-            <a href="#skills">SKILLS</a>
-            <a href="#projects">PROJECTS</a>
-            <a href="resume.pdf" target="_blank" rel="noopener noreferrer">RESUME</a>
-            <a href="#contact">CONTACT</a>
-        </nav>
+        <div class="container header-inner">
+            <a href="#home" class="logo">Tayo Creates</a>
+            <nav aria-label="Main">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a href="resume.pdf" class="nav-resume" target="_blank" rel="noopener noreferrer">Resume</a>
+            </nav>
+        </div>
     </header>
 
     <main id="content" tabindex="-1">
-        <section class="hero" id="home">
-            <div class="hero-text">
-                <h1>Hi, I'm Oluwapelumi (Tayo) Oshidele</h1>
-                <p>Early-career software engineer and front-end developer building web interfaces and applications.</p>
-                <div class="hero-actions">
-                    <a href="#contact" class="btn">Let's work together</a>
-                    <a href="#projects" class="btn btn-ghost">See my work</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 300'%3E%3Crect width='300' height='300' fill='%23141c3a'/%3E%3Ctext x='150' y='185' font-family='Arial' font-size='110' font-weight='700' fill='%236c8cff' text-anchor='middle'%3ET%3C/text%3E%3C/svg%3E" alt="Illustrated avatar with the letter T">
+        <section class="hero container" id="home">
+            <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>Open to UI/UX, cybersecurity &amp; front-end roles</p>
+            <h1>Hi, I'm Oluwapelumi <span class="muted">(Tayo)</span> Oshidele.</h1>
+            <p class="lede">Early-career software engineer and front-end developer building web interfaces and applications.</p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn">See my work</a>
+                <a href="#contact" class="btn btn-ghost">Let's work together</a>
             </div>
         </section>
 
-        <section class="about" id="about">
-            <h2 class="section-title">ABOUT</h2>
-            <p>I'm an early-career software engineer and front-end developer with hands-on experience using HTML, CSS, and JavaScript.</p>
-            <p>I'm seeking opportunities in UI/UX design, cybersecurity, and front-end development.</p>
+        <section class="section container" id="about">
+            <h2 class="section-label">About</h2>
+            <div class="section-body prose">
+                <p>I'm an early-career software engineer and front-end developer with hands-on experience using HTML, CSS, and JavaScript.</p>
+                <p>I'm seeking opportunities in UI/UX design, cybersecurity, and front-end development.</p>
+            </div>
         </section>
 
-        <section class="skills" id="skills">
-            <h2 class="section-title">SKILLS &amp; LEARNING</h2>
-            <div class="skill-grid">
-                <article class="skill-card">
+        <section class="section container" id="skills">
+            <h2 class="section-label">Skills &amp; learning</h2>
+            <ul class="section-body skill-list">
+                <li>
                     <h3>Web development</h3>
                     <p>HTML, CSS, JavaScript</p>
-                </article>
-                <article class="skill-card">
+                </li>
+                <li>
                     <h3>Cybersecurity</h3>
                     <p>Nithub cybersecurity course and Cisco introductory cybersecurity topics.</p>
-                </article>
-                <article class="skill-card">
+                </li>
+                <li>
                     <h3>Networking</h3>
                     <p>Cisco networking, network devices, and configuration.</p>
-                </article>
-            </div>
+                </li>
+            </ul>
         </section>
 
-        <section class="projects" id="projects">
-            <h2 class="section-title">PROJECTS</h2>
-            <div class="project-grid">
+        <section class="section container" id="projects">
+            <h2 class="section-label">Projects</h2>
+            <div class="section-body">
                 <article class="project">
-                    <img class="project-thumb" src="galactic-gallery.png" alt="Screenshot of the Galactic Gallery homepage, showing its navigation and Discover. Collect. Inspire. headline.">
-                    <h3>Galactic Gallery</h3>
-                    <p>A personal project for browsing emerging art and discovering artists. I built the site end-to-end using HTML, CSS, and JavaScript.</p>
-                    <p class="project-meta"><strong>Tools and hosting:</strong> VS Code · Netlify</p>
-                    <a href="https://galacticgalaxy.netlify.app/" class="project-link" target="_blank" rel="noopener noreferrer">Visit project</a>
+                    <div class="project-thumb">
+                        <img src="galactic-gallery.png" alt="Screenshot of the Galactic Gallery homepage, showing its navigation and Discover. Collect. Inspire. headline.">
+                    </div>
+                    <div class="project-info">
+                        <h3>Galactic Gallery</h3>
+                        <p>A personal project for browsing emerging art and discovering artists. I built the site end-to-end using HTML, CSS, and JavaScript.</p>
+                        <ul class="tags" aria-label="Tools and hosting">
+                            <li>HTML</li><li>CSS</li><li>JavaScript</li><li>VS Code</li><li>Netlify</li>
+                        </ul>
+                        <a href="https://galacticgalaxy.netlify.app/" class="text-link" target="_blank" rel="noopener noreferrer">Visit project <span aria-hidden="true">↗</span></a>
+                    </div>
                 </article>
             </div>
         </section>
 
-        <section class="contact" id="contact">
-            <h2 class="section-title">LET'S WORK TOGETHER</h2>
-            <p>Have a project in mind? Send me a message.</p>
-            <a href="mailto:joeloshidele@gmail.com" class="btn">joeloshidele@gmail.com</a>
+        <section class="section container" id="contact">
+            <h2 class="section-label">Contact</h2>
+            <div class="section-body">
+                <p class="contact-heading">Have a project in mind? Let's work together.</p>
+                <a href="mailto:joeloshidele@gmail.com" class="email-link">joeloshidele@gmail.com <span aria-hidden="true">→</span></a>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2026 Oluwapelumi (Tayo) Oshidele · Tayo Creates.</p>
-
+    <footer class="container site-footer">
+        <p>&copy; 2026 Oluwapelumi (Tayo) Oshidele</p>
+        <a href="#home">Back to top ↑</a>
     </footer>
 
 </body>
